@@ -11,6 +11,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/ninjudd/after_commit"
   gem.license       = 'MIT'
 
+  gem.add_dependency 'activerecord', ["< 3.0.0", ">= 1.15.6"]
+
   gem.add_development_dependency 'shoulda', '3.0.1'
   gem.add_development_dependency 'mocha'
   gem.add_development_dependency 'rake'
